@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.pig{
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+div.pig-head{
+    width: 10rem;
+    height: 10rem;
+    border: 4px solid black;
+    border-radius: 100%;
+    background-color: pink;
+    padding: 2rem;
+    z-index: 2;
+}
+div.pig-eyes{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+div.pig-eye{
+    min-width: 50%;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.pig-eyeball{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border-radius: 100%;
+}
+div.pig-nose{
+    width: 80%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 30%;
+    margin: 0.6rem;
+    background-color: rgb(232, 90, 114);
+    opacity: 80%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+div.pig-nostril{
+    width: 30%;
+    height: 60%;
+    background-color: black;
+    border-radius: 100%;
+}
+div.pig-ears{
+    display: flex;
+    justify-content: space-between;
+}
+div.pig-ear{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: pink;
+    position: relative;
+    top: 3rem;
+    z-index: 0;
+    border: 5px solid black;
+}
